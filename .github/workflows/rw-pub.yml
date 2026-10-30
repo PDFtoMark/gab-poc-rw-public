@@ -1,0 +1,8 @@
+name: rw-public
+on:
+  workflow_call:
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "rw-public ran"
