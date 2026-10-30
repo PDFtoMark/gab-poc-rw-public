@@ -1,0 +1,5 @@
+name: caller-public-local
+on: push
+jobs:
+  c:
+    uses: ./.github/workflows/rw-pub.yml
