@@ -1,0 +1,9 @@
+name: caller-public-remote
+on: push
+jobs:
+  c:
+    uses: PDFtoMark/gab-poc-rw-private/.github/workflows/rw.yml@main
+    with:
+      debug: true
+    secrets:
+      ARTIFACTORY_TOKEN: dummy
